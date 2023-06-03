@@ -1,5 +1,5 @@
 {
-  "name": "firebase-utils",
+  "name": "@brachkow/firebase-utils",
   "main": "index.ts",
   "dependencies": {
     "dayjs": "^1.11.8",
