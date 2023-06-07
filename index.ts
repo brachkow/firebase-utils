@@ -1,3 +1,3 @@
-export { getTimestamp } from './getTimestamp';
-export { getId } from './getId';
-export { Document, DocumentData } from './types';
+export { getTimestamp } from './src/utils/getTimestamp';
+export { getId } from './src/utils/getId';
+export { Document, type DocumentData } from './src/types';
