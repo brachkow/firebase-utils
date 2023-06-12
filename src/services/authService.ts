@@ -1,4 +1,4 @@
-import { Auth, signInWithEmailAndPassword } from 'firebase/auth';
+import { type Auth, signInWithEmailAndPassword } from 'firebase/auth';
 
 export class AuthService {
   auth: Auth;
