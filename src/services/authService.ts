@@ -2,6 +2,7 @@ import {
   type Auth,
   signInWithEmailAndPassword,
   deleteUser,
+  sendPasswordResetEmail,
 } from 'firebase/auth';
 
 export class AuthService {
@@ -17,6 +18,10 @@ export class AuthService {
 
   signOut() {
     this.auth.signOut();
+  }
+
+  forgotPassword(email: string) {
+    sendPasswordResetEmail(this.auth, email);
   }
 
   deleteUser() {
