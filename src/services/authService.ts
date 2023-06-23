@@ -1,4 +1,8 @@
-import { type Auth, signInWithEmailAndPassword } from 'firebase/auth';
+import {
+  type Auth,
+  signInWithEmailAndPassword,
+  deleteUser,
+} from 'firebase/auth';
 
 export class AuthService {
   auth: Auth;
@@ -13,5 +17,10 @@ export class AuthService {
 
   signOut() {
     this.auth.signOut();
+  }
+
+  deleteUser() {
+    if (!this.auth.currentUser) return;
+    deleteUser(this.auth.currentUser);
   }
 }
