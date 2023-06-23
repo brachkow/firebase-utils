@@ -12,7 +12,7 @@ export class AuthService {
     this.auth = auth;
   }
 
-  signInWithEmailAndPassword(email: string, password: string) {
+  signIn(email: string, password: string) {
     signInWithEmailAndPassword(this.auth, email, password);
   }
 
