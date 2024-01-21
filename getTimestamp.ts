@@ -1,4 +1,4 @@
-import dayjs, { ConfigType } from 'dayjs';
+import dayjs, { type ConfigType } from 'dayjs';
 import { Timestamp } from 'firebase/firestore';
 
 export const getTimestamp = (date: ConfigType = dayjs()) =>
