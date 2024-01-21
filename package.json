@@ -1,6 +1,6 @@
 {
   "name": "firebase-utils",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "license": "MIT",
   "type": "module",
   "version": "0.0.0",
