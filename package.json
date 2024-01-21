@@ -7,5 +7,10 @@
     "dayjs": "^1.11.10",
     "firebase": "^10.7.1",
     "nanoid": "^5.0.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "eslint": "^8.56.0"
   }
 }
