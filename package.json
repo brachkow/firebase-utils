@@ -3,6 +3,7 @@
   "main": "index.ts",
   "license": "MIT",
   "type": "module",
+  "version": "0.0.0",
   "dependencies": {
     "dayjs": "^1.11.10",
     "firebase": "^10.7.1",
